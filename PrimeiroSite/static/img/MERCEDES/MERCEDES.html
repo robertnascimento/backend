@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../styl3.css" />
+
+    <title>Best Cars</title>
+
+
+</head>
+
+<body>
+
+    <div data-interval="4000" id="imgcarro" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carrosel carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="../lancerfundo.jpg" alt="Primeiro Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="../r34fundo.jpg" alt="Segundo Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="../suprafundo.jpg" alt="Terceiro Slide">
+            </div>
+        </div>
+    </div>
+    <!--BARRA DE NAVEGAÇÃO-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../home.html">HOME</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../MarcasPAG.html">MARCAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../veiculos.html">VEÍCULOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../VenderCarro.html">VENDER</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Pesquisa" aria-label="Pesquisa">
+                    <input class="btn btn-primary" type="submit" value="Buscar">
+                </form>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../CadastroUSER.html">CADASTRE-SE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../login.html">LOGIN</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+        <!--LINHA DE CIMA CARROS-->
+    <div class=" row">
+        <div class="imgcar col-sm-12 col-md-4 text-center">
+            <a href="BMW/bmw.html"><img style="height: 280px; width: 280px;" src="g350.jpg"
+                    class="bor media-object  img-responsive img-fluid rounded"></a>
+                    <h4 class="nomesmarcas">MERCEDES G 350</h4>
+                    <p>VALOR: R$ 778.900,00</p>
+                    <button type="button" class="btn btn-success mx-auto">Comprar</button>
+        </div>
+        <div class="imgcar col-sm-12 col-md-4 text-center">
+            <a href="#"><img style="height: 280px; width: 280px;" src="c63.jpg"
+                    class="bor media-object  img-responsive img-fluid rounded"></a>
+                    <h4 class="nomesmarcas">MERCEDES C 63</h4>
+                    <p>VALOR: R$ 555.900,00</p>
+                    <button type="button" class="btn btn-success mx-auto">Comprar</button>
+        </div>
+        <div class="imgcar col-sm-12 col-md-4 text-center">
+            <a href="#"><img style="height: 280px; width: 280px;" src="sls.png"
+                    class="bor media-object  img-responsive img-fluid rounded"></a>
+                    <h4 class="nomesmarcas">MERCEDES SLS</h4>
+                    <p>VALOR: R$ 1.195.722,00</p>
+                    <button type="button" class="btn btn-success mx-auto">Comprar</button>
+        </div>
+        
+    </div>
+
+    <!--LINHA DE BAIXO CARROS-->
+    <div class="row">
+        <div class="imgcar col-sm-12 col-md-4 text-center">
+            <a href="#"><img style="height: 280px; width: 280px;" src="ECQ.jpg"
+                    class="bor media-object  img-responsive img-fluid rounded"></a>
+                    <h4 class="nomesmarcas">MERCEDES EQC 400</h4>
+                    <p>VALOR: R$ 629.900,00</p>
+                    <button type="button" class="btn btn-success mx-auto">Comprar</button>
+        </div>
+        <div class="imgcar col-sm-12 col-md-4 text-center">
+            <a href="#"><img style="height: 280px; width: 280px;" src="https://cdn.carrosp.com.br/img/25/full/mercedes-benz-c-300-2018-ribeira-57d4cfb9d5f9d1ce72391d2bca781b2c.jpg"
+                    class="bor media-object  img-responsive img-fluid rounded"></a>
+                    <h4 class="nomesmarcas">BMW C180</h4>
+                    <p>VALOR: R$  349.900,00</p>
+                    <button type="button" class="btn btn-success mx-auto">Comprar</button>
+        </div>
+        <div class="imgcar col-sm-12 col-md-4 text-center">
+            <a href="#"><img style="height: 280px; width: 280px;" src="GLA.jpg"
+                    class="bor media-object  img-responsive img-fluid rounded"></a>
+                    <h4 class="nomesmarcas">MERCEDES GLA 200</h4>
+                    <p>VALOR: R$ 325.900,00</p>
+                    <button type="button" class="btn btn-success mx-auto">Comprar</button>
+        </div>
+
+    </div>
+    <!-- RODAPÉ -->
+
+    <footer class="border-top text-muted bg-dark">
+        <div class="container">
+            <div class="row py-3">
+                <div class="col-12 col-md-3 text-center text-md-left">
+                    &copy; 2021 - Best Cars
+                </div>
+
+                <div class="rodtexto col-12 col-md-3 text-center">
+                    <a href="#" class="text-decoration-none text-light">Politica de privacidade</a>
+                </div>
+
+                <div class="rodtexto col-12 col-md-3 text-center text-md-right">
+                    <a href="#" class="text-decoration-none text-light">bestcars@gmail.com</a>
+                </div>
+
+                <div class="rodtexto col-12 col-md-3 text-center text-md-right">
+                    <a href="#" class="text-decoration-none text-light">@bestcars</a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

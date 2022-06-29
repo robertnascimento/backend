@@ -1,0 +1,50 @@
+{% extends "bases/base.html" %}
+
+{% block conteudo %}
+
+    <div class="alin container">
+        <form action="bestcars.php" method="post">
+            <div class="col-sm-12 col-md-12 col-lg-12 text-center row">
+                <label for="name">Nome do Veículo:</label>
+                <input type="text" id="nomeveiculo" required />
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12 text-center row">
+                <label for="email">Valor Desejado:</label>
+                <input type="text" id="email" required />
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12 text-center row">
+                <label for="exampleFormControlTextarea1" class="form-label">Descrição do Veículo</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12 text-center row">
+                <label for="name">Informe seu Nome:</label>
+                <input type="text" id="name" required />
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12 text-center row">
+                <label for="cpf">Informe seu CPF:</label>
+                <input type="cpf" id="cpf" maxlength="11" required />
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12 text-center row">
+                <label for="telefone">Seu Telefone:</label>
+                <input type="telefone" id="telefone" maxlength="11" required />
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12 text-center row">
+                <label for="formFileSm" class="form-label">Foto do Veículo:</label>
+                <input class="form-control form-control-sm" id="formFileSm" type="file">
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-12 text-center row">
+                <p>
+                    <button type="submit" class="btn btn-success mx-auto">Enviar</button>
+                    <input type="reset" value="Limpar" />
+                </p>
+            </div>
+
+        </form>
+    </div>
+    {% endblock %}

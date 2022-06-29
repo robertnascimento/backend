@@ -1,0 +1,127 @@
+div.imgcarro{
+    position: fixed;
+}img.bor{
+    margin-top: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}img.bor{
+    transition: all .5s;
+    border: 10px solid white;
+}img.bor:hover{
+    border: 10px solid #161616;
+    border-radius: 50%;
+}h1.nomesmarcas{
+    padding-top: 180px;
+}h3.descridireita{
+    padding-top: 80px;
+    padding-right: 180px;
+    padding-left: 40px;
+}h3.descriesquerda{
+    padding-top: 80px;
+    padding-right: 40px;
+    padding-left: 180px;
+}div.imgcar{
+    margin-top: 50px;
+}div.imgicons{
+    float: left;
+}div.fundocad{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}div.caditem{
+    background-color: white;
+    height: 800px;
+    margin-top: 20px;
+}p.itemcad2{
+    text-align: center;
+    margin-top: 10px;
+}div.centrovenda{
+    width: 800px;
+}div.alin{
+
+    align-items: center;
+    justify-content: center;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 30px;
+
+}fieldset.alin{
+
+    align-items: center;
+    justify-content: center;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+
+}div.backmarcas{
+    height: 500px;
+}h4.nomesmarcas{
+    margin-top: 20px;
+}button.btn2{
+    margin-bottom: 50px;
+}footer {
+    margin-top: 50px;
+}div.formulario{
+    background-color: white;
+    height: 800px;
+    margin-top: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}div.logincc{
+    background-color: #ffffff;
+    height: 800px;
+    margin-top: 20px;
+    box-shadow: 0 8px 16px 0 rgba(71, 71, 71, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}div.formnome{
+
+    padding-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 20px;
+
+}div.form1{
+
+    padding: 5px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}input{
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}div.forms{
+    padding: 5px 300px;
+}div.espacoinvisivel{
+    color: #ffffff;
+    height: 300px;
+}div.nomeveiculo{
+    padding-top: 50px;
+} body{
+    background-image: url(https://media.istockphoto.com/photos/cream-color-for-background-or-wallpaper-from-dirty-water-in-a-muddy-picture-id1036027110?k=20&m=1036027110&s=170667a&w=0&h=3rnfbVgH_fn1L_OF05ulCBW0NncfhYHOLlTTrjEJpmw=);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+}div.carrosel{
+
+    background-color: #0c0c0f;
+
+}div.dadosuser{
+    float: left;
+    padding: 20px 20px;
+}form.formuser{
+    
+}
+#fontetable{
+
+    font-size: 12px;
+
+}
